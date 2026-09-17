@@ -1,0 +1,139 @@
+body{
+    background-color: white;
+    margin: 0;
+    font-family: 'Plus Jackarta Sans', sans-serif;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    width: 80px;
+    height: auto;
+}
+
+.navbar{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.navbar a:hover{
+    color: #007bff;
+    font-size: 18px;
+}
+.hero-image{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.my-image{
+    width: 500px;
+    height: auto;
+}
+
+.hero-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    text-align: center;
+}
+.hero-buttons{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.btn:hover{
+    background-color: #0056b3;
+    font-size: 18px;
+}
+
+.motivation{
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-left: 5px solid #2563eb;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.motivation h2{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #1e3a8a;
+}
+
+.motivation p{
+    margin: 0;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #4b5563;
+
+}
+
+.skills{
+    background: #ffffff;
+    padding: 25px;
+    border-left: 5px solid #2563eb;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2{
+    margin-top: 0;
+    font-size: 24px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.skills ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.skills li{
+    padding:12px 15px;
+    margin-bottom: 10px;
+    background:#f8fafc;
+    border-radius: 8px;
+    color:#374151;
+    transition: 0.3s;
+}
+
+.skills li:hover{
+    background:#eff6ff;
+    color:#1e3a8a;
+    transform: translateX(5px);
+}
